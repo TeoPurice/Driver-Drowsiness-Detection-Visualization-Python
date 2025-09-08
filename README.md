@@ -10,7 +10,7 @@ Each drive can include multiple data points, and results are visualized on a cha
 
 ---
 
-## Visualization
+## Visualization 📊
 
 - The chart displays **EQI (x-axis)** vs **SQI (y-axis)**.  
 - The **green shaded box** represents the "safe zone" (≤ 0.5 for both indices).  
@@ -22,7 +22,7 @@ Multiple drives can be recorded, and each drive generates its own chart.
 
 ---
 
-## Algorithm
+## Algorithm 🔢
 
 ### Eye Quality Index (EQI)
 
@@ -54,8 +54,6 @@ Where:
 - $d_{2} = 0.3$ (lane deviation as a secondary factor)  
 - $d_{3} = 0.1$ (occasional corrections contribute modestly)  
 
----
-
 ### Why Normalization?
 
 Inputs are normalized to a scale of 0–1 to account for different units and ranges.  
@@ -68,8 +66,35 @@ This ensures extreme or unrealistic values do not dominate the indices.
 
 ---
 
-## Usage
+## Usage ⚙️
 
 Run in editor or use terminal:
 ```bash
 python drowsiness_detection.py
+```
+
+### Example Run
+
+**Input:**
+```
+Start a new drive (y or n): y
+Enter eye closure rate (as a percentage): 20
+Enter blink duration (in milliseconds): 200
+Enter saccadic velocity (degrees/second): 25
+Enter steering angle variability (degrees): 5
+Enter lane deviation (seconds): 1
+Enter steering correction time (seconds): 1
+Add another data point to this drive? (y or n): n
+Start a new drive (y or n): n
+```
+
+**Console Output:**
+```
+Driver is proceeding safely and alertly. Please continue!
+Drive 1 recorded with 1 data points.
+All drives recorded:
+Drive 1: 1 data points recorded.
+```
+
+A chart is displayed with one green point inside the safe zone. See [`demo_runs.txt`](demo_runs.txt) for full sample runs.
+

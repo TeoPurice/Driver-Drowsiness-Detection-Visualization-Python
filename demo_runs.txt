@@ -1,0 +1,47 @@
+Start a new drive (y or n): y
+
+Enter data for a new data point:
+Enter eye closure rate (as a percentage): 60
+WARNING! Driver is likely suffering from drowsiness!
+
+Enter blink duration (in milliseconds): 600
+Please enter value between 0 and 500 ms.
+Enter blink duration (in milliseconds): 450
+
+Enter saccadic velocity (degrees/second): 20
+Enter steering angle variability (degrees): 8
+Enter lane deviation (seconds): 3
+Enter steering correction time (seconds): 2
+Add another data point to this drive? (y or n): y
+
+Enter data for a new data point:
+Enter eye closure rate (as a percentage): 15
+Enter blink duration (in milliseconds): 180
+Enter saccadic velocity (degrees/second): 28
+Enter steering angle variability (degrees): 4
+Enter lane deviation (seconds): 0.5
+Enter steering correction time (seconds): 1
+Driver is proceeding safely and alertly. Please continue!
+Add another data point to this drive? (y or n): n
+
+Drive 1 recorded with 2 data points.
+
+Start a new drive (y or n): y
+
+Enter data for a new data point:
+Enter eye closure rate (as a percentage): 40
+Enter blink duration (in milliseconds): 250
+Enter saccadic velocity (degrees/second): 10
+Enter steering angle variability (degrees): 12
+Enter lane deviation (seconds): 4
+Enter steering correction time (seconds): 3
+WARNING! Driver is likely suffering from drowsiness!
+Add another data point to this drive? (y or n): n
+
+Drive 2 recorded with 1 data points.
+
+Start a new drive (y or n): n
+
+All drives recorded:
+Drive 1: 2 data points recorded.
+Drive 2: 1 data points recorded.

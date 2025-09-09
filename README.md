@@ -1,4 +1,4 @@
-# Driver Drowsiness Detection
+# Driver Drowsiness Detection Visualization
 
 This Python program evaluates driver alertness using two computed indices:  
 
@@ -10,7 +10,7 @@ Each drive can include multiple data points, and results are visualized on a cha
 
 ---
 
-## Visualization 📊
+## Graphs 📊
 
 - The chart displays **EQI (x-axis)** vs **SQI (y-axis)**.  
 - The **green shaded box** represents the "safe zone" (≤ 0.5 for both indices).  

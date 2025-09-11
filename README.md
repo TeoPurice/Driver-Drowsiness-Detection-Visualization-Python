@@ -78,22 +78,35 @@ python drowsiness_detection.py
 **Input:**
 ```
 Start a new drive (y or n): y
+
+Enter data for a new data point:
 Enter eye closure rate (as a percentage): 20
 Enter blink duration (in milliseconds): 200
 Enter saccadic velocity (degrees/second): 25
 Enter steering angle variability (degrees): 5
 Enter lane deviation (seconds): 1
 Enter steering correction time (seconds): 1
+Add another data point to this drive? (y or n): y
+
+Enter data for a new data point:
+Enter eye closure rate (as a percentage): 60
+Enter blink duration (in milliseconds): 700
+Enter saccadic velocity (degrees/second): 10
+Enter steering angle variability (degrees): 20
+Enter lane deviation (seconds): 3
+Enter steering correction time (seconds): 4
 Add another data point to this drive? (y or n): n
+
 Start a new drive (y or n): n
 ```
 
 **Console Output:**
 ```
 Driver is proceeding safely and alertly. Please continue!
-Drive 1 recorded with 1 data points.
+WARNING! Driver is likely suffering from drowsiness!
+Drive 1 recorded with 2 data points.
 All drives recorded:
-Drive 1: 1 data points recorded.
+Drive 1: 2 data points recorded.
 ```
 
 A chart is displayed with one green point inside the safe zone. See [`demo_runs.txt`](demo_runs.txt) for full sample runs.

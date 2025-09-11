@@ -109,5 +109,7 @@ All drives recorded:
 Drive 1: 2 data points recorded.
 ```
 
-A chart is displayed with one green point inside the safe zone. See [`demo_runs.txt`](demo_runs.txt) for full sample runs.
+![Example Run Graph](./example_graph.png)
+
+A chart is displayed with one green point inside the green-tinted, rectangular safe zone and a red point far outside of it. See [`demo_runs.txt`](demo_runs.txt) for full sample runs.
 
